@@ -1,6 +1,9 @@
 # Overnight-Hackathon
 RVCE Overnight Hackathon - Team : Nebular Glow
 Problem Statment : Intelligent Document Processing for Infrastructure Operations
+
+Organizations managing complex infrastructure face significant challenges due to the massive volume of documents arriving in fragmented formats and disconnected channels. This informational chaos makes critical data difficult to access, interpret, and share, resulting in severely siloed visibility and slow decision-making across departments. The inefficiency leads to duplicated work, operational bottlenecks, and a chronic loss of institutional knowledge over time, ultimately escalating compliance and audit risks.
+
 # Overnight-Hackathon-
 An AI-powered website to automate the task labelling process 
 
