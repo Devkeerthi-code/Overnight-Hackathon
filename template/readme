@@ -1,0 +1,10 @@
+# Downloading the Java-Based template Folder
+Please download the template folder designed for Java-based implementations from the provided source. 
+This folder contains essential template files required for rendering views, managing layouts, and 
+supporting the overall structure of the Java application.
+After downloading, place the folder in the correct directory as specified in the project structure. 
+Ensure that: All files within the template folder are fully retrieved without omissions.
+The directory name and internal file organization remain unchanged.
+File integrity is verified to prevent runtime or rendering issues.
+Proper inclusion of the Java-based template folder is crucial for maintaining 
+consistent application behavior and ensuring seamless integration with the rest of the project components.
