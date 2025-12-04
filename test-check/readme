@@ -1,0 +1,9 @@
+# Downloading the Test-Check PDF Folders
+Please download all test check folders, which are provided as PDF files, from the designated source. 
+These documents are intended solely for verifying and validating the Java-based files within the project.
+After downloading, ensure that:
+Every PDF test-check folder is fully retrieved without missing pages or corrupted files.
+The original folder names and file structure remain intact.
+The PDFs are stored in the appropriate directory as outlined in the project structure.
+These test-check PDFs serve as reference materials to confirm file accuracy, ensure consistency, 
+and support quality assurance throughout the development process.
