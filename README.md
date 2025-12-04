@@ -12,7 +12,7 @@ Previous Requirements
 3. In css upload base.css, and landing.css file
 4. In js upload landing.js
 
-# This File Structure
+# File Structure
 
 /HACKATHON
 1. app.py
