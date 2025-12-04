@@ -1,0 +1,10 @@
+Downloading the static-css Folders
+To ensure the project functions correctly and all styling resources are available, please download all static-css folders from the provided source. 
+After downloading, place the folders in the appropriate project directory as indicated in the repository structure.
+
+# Make sure that:
+    Each static-css folder is fully downloaded without missing files.
+    The directory names and file paths remain unchanged.
+    You verify the integrity of the downloaded files to avoid inconsistencies in styling or rendering.
+    The folders are stored securely and included in your working environment before running or deploying the project.
+    These assets are essential for maintaining consistent UI behavior, responsive layout performance, and proper rendering across the application.
