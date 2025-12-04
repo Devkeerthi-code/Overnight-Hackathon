@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Website</title>
+  
+  <!-- Link to Base Design System -->
+  <link rel="stylesheet" href="{{url_for('static', filename = 'css/base.css
+  ')}}">
+  
+  <!-- Link to Landing Template Styles -->
+  <link rel="stylesheet" href="{{url_for('static', filename = 'css/landing.css')}}">
+  
+  <!-- Google Fonts for Educational Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="landing-container">
+    <!-- Background Animation -->
+    <div class="landing-background"></div>
+    
+    <!-- Content Wrapper -->
+    <div class="landing-content">
+      
+      <!-- Header Section -->
+      <div class="landing-header">
+        <h1 class="landing-title">Welcome to Website</h1>
+        <p class="landing-subtitle">
+          Upload your PDFs and start collaborating with ease
+        </p>
+      </div>
+
+      <!-- PDF Upload Section -->
+      <div class="pdf-upload-section">
+        
+        <!-- Upload Box -->
+        <div class="upload-box" id="uploadBox">
+          <div class="upload-icon">📄</div>
+          <h2 class="upload-title">Upload Your PDF</h2>
+          <p class="upload-description">
+            Click the button below to select PDF files
+          </p>
+          
+          <!-- Hidden File Input -->
+          <input 
+            type="file" 
+            id="pdfInput" 
+            class="pdf-input" 
+            accept=".pdf" 
+            multiple
+            aria-label="Select PDF files"
+          >
+          
+          <!-- Upload Button -->
+          <button class="btn btn-primary btn-lg upload-btn" id="uploadBtn">
+            Upload PDF
+          </button>
+        </div>
+
+        <!-- File List Section -->
+        <div class="file-list-section" id="fileListSection">
+          <h3 class="file-list-title">Selected Files</h3>
+          <ul class="file-list" id="fileList"></ul>
+          <button class="btn btn-secondary submit-files-btn" id="submitFilesBtn">
+            Submit Files
+          </button>
+        </div>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="decoration decoration-1"></div>
+      <div class="decoration decoration-2"></div>
+    </div>
+  </div>
+
+  <script src="{{url_for('static',filename = 'js/landing.js')}}"></script>
+</body>
+</html>
